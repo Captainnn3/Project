@@ -25,7 +25,7 @@ retriever = FAISS.from_documents(
 # ---- TOOLS -----------------------------------------------------------------
 @tool
 def price_products(question: str) -> str:
-    """ตอบราคาสินค้าที่ถาม"""
+    """ััััfffff"""
     m = re.search(r"([\w\s]+)\s*(?:มีราคา|ราคาเท่าไหร่|ราคา|คืออะไร)", question)
     keyword = (m.group(1) if m else question).strip()
 
